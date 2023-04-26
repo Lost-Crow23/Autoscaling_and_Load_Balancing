@@ -2,7 +2,7 @@
 
 ![New diagram AS and LB](https://user-images.githubusercontent.com/126012715/234576506-5f85a8d2-b628-4fd1-b246-711bd02c69f7.png)
 
-What is Autoscaling?
+<h3>What is Autoscaling?</h3>
 
 - Feature of cloud computing that automatically adjusts the amount of resources allocated to an application or service within it's demand
 - Handles changes in user traffic without manual intervention or the need to provision additional resources manually
@@ -13,7 +13,7 @@ accordingly
 - Improves applications performance and reliability by ensuring there is enough resources available to handle workload.
 - Used within AWS, Microsoft Azure, Google Cloud platform. 
 
-What is Load balancing?
+<h3>What is Load balancing?</h3>
 
 Load balancing distributes traffic between the EC2 instances so that no one instance gets overwhelemed. 
 
@@ -25,17 +25,17 @@ Load balancing distributes traffic between the EC2 instances so that no one inst
 - can be implemented using AWS, Elastic load balancing Application load balancing or network load balancing
 - integrated with other AWS services such as Auto Scaling and Amazon route 53, to automate scaling and DNS routing based on traffic patterns
 
-What is ALB ?
+<h3>What is ALB?</h3>
 
 - Application Load Balancing is a service that provides layer 7, for HTTP or HTTPS traffic.
 - Distributes incoming requests for targets, such as EC2 instances, containers, IP addresses.
 - Supports features like path based routing
 
-What is Scaling up ?
+<h3>What is Scaling up?</h3>
 
 Scaling up is when you need to scale up for the sake of a bigger server for the developers so it does not crash
 - you can't scale up if a bigger cpu is needed
 
-What is Scale into?
+<h3>What is Scale into?</h3>
 
 Scale into is when have multiple instances running from the load balancer so if one crashes it will take 300 second for the next one too run .
