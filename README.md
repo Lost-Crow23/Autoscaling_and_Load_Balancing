@@ -34,12 +34,12 @@ Network Settings
 
 - Scroll down and edit the User data configuration under the advanced settings with the following commands.
 
-    #!bin/bash
-    sudo apt update -y
-    sudo apt upgrade -y
-    sudo apt install nginx -y
+        #!bin/bash
+        sudo apt update -y
+        sudo apt upgrade -y
+        sudo apt install nginx -y
     
- Create the template
+ - Create the template
  
  <h2>Autoscaling Group</h2>
  
