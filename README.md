@@ -96,19 +96,25 @@ the internet.
 
 - Group size is vital as we select the desired capacity, Min capacity, and max capacity, which all meean that we can choose how many instances we want to run if the current instance becomes unhealthy or shuts down.
 
-
+<img width="855" alt="Step 4 capacity ASG" src="https://user-images.githubusercontent.com/126012715/234714252-8b1f3c84-bf79-4c71-91fd-1eb380b25e14.png">
 
 <h3>Step 7</h3>
 
 - Scaling policies is used for the increase or decrease the current capacity of a scalable target based on a set of scaling adjustments, known as step adjustments.
 - We chose Target Tracking policy as our target value does not exceed our CPU utilization.
 
+<img width="794" alt="Step 7 AWG Scaling policies" src="https://user-images.githubusercontent.com/126012715/234714667-a17fd12b-f3d8-4ea9-a351-2b86eaca9dce.png">
+
 <h3>Final Step</h3>
 
 - We add a tag so we can filter and track our ASG, we choose key `name` and value `name-tech221-asg-alb-app`.
 - Create ASG. 
 
+<img width="796" alt="step 8 Tag ASG" src="https://user-images.githubusercontent.com/126012715/234714735-fc42f479-aa32-4e77-85e4-06affdc77524.png">
+
 <h2>Instances</h2>
 
 - As we click on our instances, two instances should be running and available.
 - As we terminate instance as an example, as it can become unhealthy in real production, it should whip up another instance automatically due to our ASG.
+
+<img width="1188" alt="Final Steps running " src="https://user-images.githubusercontent.com/126012715/234714769-7ae8e6a1-a00e-45a1-8aa1-223e3d174d4d.png">
